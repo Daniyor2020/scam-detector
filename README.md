@@ -48,3 +48,21 @@ export default tseslint.config({
   },
 })
 ```
+
+
+
+# How to download and run app of vite
+
+1. Download app of vite from the github.com
+
+2. Unpack archive
+
+3. Go to the root of the project
+
+4. Run command `npm install`
+
+5. Run command `npm run build`
+
+6. Run command `npm run dev`
+
+7. Open in the browser `http://localhost:5173`
