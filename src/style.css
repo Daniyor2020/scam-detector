@@ -91,6 +91,7 @@
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;
+  position: relative;
 }
 
 .hidden {
@@ -107,4 +108,12 @@
 .labels{
   font-size: 20px;
   font-weight: bold;
+}
+
+.middle {
+display: inline-block;
+flex:1;
+text-align: center;
+color:rgb(226, 64, 64)
+
 }

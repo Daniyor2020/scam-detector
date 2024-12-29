@@ -13,7 +13,7 @@ import ElementsOfPotentialScam from './ElementsOfPotentialScam';
      <div className='sec2-1-container'>
        <p className="labels">Scam Potential </p>
        {/* <p>Likelihood of being a scam</p> */}
-       <p className='text-dark-500 text-3xl font-bold '>{data['Risk Rating']}/10</p>
+       <p className='labels middle '>{data['Risk Rating']}/10</p>
      </div>
      {/* justification container */}
      <div className='sec2-2-container'>

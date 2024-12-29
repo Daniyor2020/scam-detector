@@ -81,10 +81,18 @@ const handleImageUpload = (img: string | Blob) => {
                 top: "50%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                zIndex: 1,
+                zIndex: 100,
+                objectFit: "contain",
+                cursor: "pointer",
+                backgroundColor: "rgba(255, 255, 255, 0.6)",
+                border: "none",
+                width: "31px",
+                height: "31px",
+                
+                padding: "5px",
               }}
             >
-              <DeleteIcon size={20} color='white' />
+              <DeleteIcon size="2x" color="red" onClick={handleImageRemove}  />
             </button>
 
             {preview && (
