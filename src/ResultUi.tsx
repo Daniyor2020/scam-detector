@@ -40,8 +40,9 @@ export default ResultUi
 
 const LoadingScreen = () => {
     return (
-      <div className="flex items-center justify-center h-full text-gray-600">
+      <div className="loading-screen">
         <p className="labels">Processing the image</p>
+        <div className="loader"></div>
       </div>
     );
   };
