@@ -7,7 +7,7 @@ import ElementsOfPotentialScam from './ElementsOfPotentialScam';
  const ResultUi = ({data, isProcessing}:any) => {
   return (
     <section className='right-section'>
-    { data ?<>
+    { data && !isProcessing?<>
      {/* 
      rating contaiter */}
      <div className='sec2-1-container'>
